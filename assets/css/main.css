@@ -1080,9 +1080,18 @@ input, textarea, select {
 ul, ol, p, dl {
     margin: 0 0 2em 0;
 }
+ul.morgen{
+    text-align: center;
+    font-size: 1.5em;
+    line-height: 180%;
+
+}
 
 a {
     text-decoration: underline;
+}
+p.revva{
+    text-align: right;
 }
 
 a:hover {
@@ -1643,7 +1652,10 @@ section > :last-child,
         color: #96a9b5;
         font-size: 1em;
     }
-
+    #content .slavik{
+        display: block;
+        margin: 0 auto;
+    }
     #content a {
         color: #ED391B;
     }
@@ -1657,7 +1669,6 @@ section > :last-child,
         color: #546b76;
         text-shadow: 1px 1px 0px rgba(255, 255, 255, 0.5);
     }
-
     #footer section {
         margin: 0 0 40px 0;
     }
