@@ -3,11 +3,7 @@
 @import 'libs/mixins';
 @import url('https://fonts.googleapis.com/css?family=Yanone+Kaffeesatz:400,300,200');
 
-/*
-	Halcyonic by HTML5 UP
-	html5up.net | @ajlkn
-	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
-*/
+
 
 	@import "libs/skel";
 
@@ -45,7 +41,6 @@
 		)
 	));
 
-/* Basic */
 
 	body {
 		background: #D4D9DD url('images/bg03.jpg');
@@ -81,7 +76,6 @@
 		margin-bottom: 0 !important;
 	}
 
-/* Multi-use */
 
 	.link-list {
 		li {
@@ -203,7 +197,6 @@
 		}
 	}
 
-/* Content */
 
 	#content {
 		.quote-list {
@@ -225,7 +218,6 @@
 		}
 	}
 
-/* Footer */
 
 	#footer {
 		.quote-list {
@@ -250,11 +242,9 @@
 		}
 	}
 
-/* Desktop */
 
 	@include breakpoint(desktop) {
 
-		/* Basic */
 
 			body {
 				min-width: 1200px;
@@ -264,7 +254,6 @@
 				margin-bottom: 0 !important;
 			}
 
-		/* Wrappers */
 
 			#header-wrapper {
 				background: #3B4346 url('images/bg01.jpg');
@@ -295,7 +284,6 @@
 				text-shadow: 1px 1px 1px rgba(255, 255, 255, 1);
 			}
 
-		/* Header */
 
 			#header {
 				min-height: 155px;
@@ -333,7 +321,6 @@
 				}
 			}
 
-		/* Banner */
 
 			#banner {
 				border-top: solid 1px #222628;
@@ -354,7 +341,6 @@
 				}
 			}
 
-		/* Features */
 
 			#features {
 				color: #a0a8ab;
@@ -374,7 +360,6 @@
 				}
 			}
 
-		/* Content */
 
 			#content {
 				section {
@@ -404,7 +389,6 @@
 				}
 			}
 
-		/* Footer */
 
 			#footer {
 				color: #546b76;
@@ -421,7 +405,6 @@
 				}
 			}
 
-		/* Copyright */
 
 			#copyright {
 				border-top: solid 1px #b5bec3;
@@ -438,17 +421,14 @@
 
 	}
 
-/* Tablet */
 
 	@include breakpoint(tablet) {
 
-		/* Basic */
 
 			body {
 				min-width: 1000px;
 			}
 
-		/* Multi-use */
 
 			.check-list {
 				li {
@@ -489,7 +469,6 @@
 				padding: 10px 35px 10px 35px;
 			}
 
-		/* Banner */
 
 			#banner {
 				p {
@@ -497,7 +476,6 @@
 				}
 			}
 
-		/* Header */
 
 			#header {
 				h1 {
@@ -511,7 +489,6 @@
 				}
 			}
 
-		/* Content */
 
 			#content {
 				h2 {
@@ -529,7 +506,6 @@
 
 	}
 
-/* Mobile */
 
 	#navPanel, #titleBar {
 		display: none;
@@ -537,7 +513,6 @@
 
 	@include breakpoint(mobile) {
 
-		/* Basic */
 
 			html, body {
 				overflow-x: hidden;
@@ -548,7 +523,6 @@
 				line-height: 1.4em;
 			}
 
-		/* Multi-use */
 
 			.link-list {
 				li {
@@ -575,7 +549,6 @@
 				padding: 10px 35px 10px 35px;
 			}
 
-		/* Wrappers */
 			#header-wrapper {
 				background: #3B4346 url('images/bg01.jpg') top center;
 				box-shadow: inset 0px -1px 0px 0px #272d30, inset 0px -2px 0px 0px #51575a;
@@ -602,7 +575,6 @@
 				text-shadow: 1px 1px 1px rgba(255, 255, 255, 1);
 			}
 
-		/* Header */
 
 			#header {
 				display: none;
@@ -627,7 +599,6 @@
 				}
 			}
 
-		/* Features */
 
 			#features {
 				color: #a0a8ab;
@@ -661,7 +632,6 @@
 				}
 			}
 
-		/* Content */
 
 			#content {
 				section {
@@ -691,7 +661,6 @@
 				}
 			}
 
-		/* Footer */
 
 			#footer {
 				color: #546b76;
@@ -716,7 +685,6 @@
 				}
 			}
 
-		/* Copyright */
 
 			#copyright {
 				border-top: solid 1px #b5bec3;
@@ -731,7 +699,6 @@
 				}
 			}
 
-		/* Off-Canvas Navigation */
 
 			#page-wrapper {
 				@include vendor('backface-visibility', 'hidden');

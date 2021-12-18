@@ -1,8 +1,3 @@
-/*
-	Halcyonic by HTML5 UP
-	html5up.net | @ajlkn
-	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
-*/
 
 (function($) {
 
@@ -25,10 +20,8 @@
 		var $window = $(window),
 			$body = $('body');
 
-		// Fix: Placeholder polyfill.
 			$('form').placeholder();
 
-		// Prioritize "important" elements on mobile.
 			skel.on('+mobile -mobile', function() {
 				$.prioritize(
 					'.important\\28 mobile\\29',
@@ -36,9 +29,7 @@
 				);
 			});
 
-		// Off-Canvas Navigation.
 
-			// Title Bar.
 				$(
 					'<div id="titleBar">' +
 						'<a href="#navPanel" class="toggle"></a>' +
@@ -47,7 +38,6 @@
 				)
 					.appendTo($body);
 
-			// Navigation Panel.
 				$(
 					'<div id="navPanel">' +
 						'<nav>' +
@@ -67,7 +57,6 @@
 						visibleClass: 'navPanel-visible'
 					});
 
-			// Fix: Remove navPanel transitions on WP<10 (poor/buggy performance).
 				if (skel.vars.os == 'wp' && skel.vars.osVersion < 10)
 					$('#titleBar, #navPanel, #page-wrapper')
 						.css('transition', 'none');
